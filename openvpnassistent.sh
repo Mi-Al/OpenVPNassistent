@@ -188,7 +188,7 @@ _EOF_
 		easyrsa gen-req "client${i}" nopass
 		easyrsa sign-req client "client${i}"
 
-cat > $currDir/configs/"client${i}".opvn << _EOF_
+cat > $currDir/configs/"client${i}".ovpn << _EOF_
 client
  
 remote $serverIP
@@ -310,7 +310,7 @@ _EOF_
 		./easyrsa gen-req "client${i}" nopass
 		./easyrsa sign-req client "client${i}"
 
-cat > $currDir/configs/"client${i}".opvn << _EOF_
+cat > $currDir/configs/"client${i}".ovpn << _EOF_
 client
  
 remote $serverIP
