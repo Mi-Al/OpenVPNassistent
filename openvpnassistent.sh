@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Mi-Al/OpenVPNassistent
-VERS="20181014"
+VERS="20181117"
 
 if [[ -d "configs" ]]; then
 	echo ""
@@ -133,7 +133,7 @@ if [[ "$DebianOrArch" == "Arch" ]]; then
 	openvpn --genkey --secret /tmp/ta.key
 
 
-cat > $currDir/configs/server.opvn << _EOF_
+cat > $currDir/configs/server.conf << _EOF_
 port $serverPORT
  
 proto udp
@@ -254,7 +254,7 @@ elif [[ "$DebianOrArch" == "Debian" ]]; then
 	openssl dhparam -out /tmp/dh2048.pem 2048
 	openvpn --genkey --secret /tmp/ta.key
 
-cat > $currDir/configs/server.opvn << _EOF_
+cat > $currDir/configs/server.conf << _EOF_
 port $serverPORT
  
 proto udp
