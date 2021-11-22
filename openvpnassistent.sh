@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # https://github.com/Mi-Al/OpenVPNassistent
-# Manual (en):
+# Manual (en): https://miloserdov.org/?p=7303
 # Manual (ru): https://hackware.ru/?p=7079
-# Mi-Al/OpenVPNassistent
+
 VERS="20211102"
 
 if [[ -d "configs" ]]; then
