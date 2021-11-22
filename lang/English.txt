@@ -1,21 +1,21 @@
-Strings1::\\033[1mUnsupported distribution. Only Debian derivatives (Ubuntu, Linux Mint, Kali Linux) and Arch Linux (BlackArch) are supported. Exit their program. Quitting...\\033[0m
-Strings2::\\033[1mFine! It looks like your distribution is supported. Going on.\\033[0m
-Strings3::\\033[1mThis script is designed to simplify the creation of OpenVPN server and client key files. The official address of the script https://github.com/Mi-Al/OpenVPNassistent/\\033[0m
-Strings4::Ok, OpenVPN is already installed. We continue. Still going on...
-Strings5::\\033[1;32mIf you need a VPS server to configure OpenVPN, I recommend this one: \\033[1;31;5;7mhttps://m.do.co/c/52bf4857e82c\\e[0m (if you follow the link to register, you will get bonus dollars!)\\033[0m
-Strings6::It seems that OpenVPN is not yet installed. Install OpenVPN? [Y/n] :
-Strings7::We can not continue without OpenVPN. Quitting...
+Strings1::\\033[1mUnsupported Linux distribution. Only Debian derivatives (Ubuntu, Linux Mint, Kali Linux) and Arch Linux (BlackArch) are supported. Quitting...\\033[0m
+Strings2::\\033[1mIt looks like your distribution is supported. Going on.\\033[0m
+Strings3::\\033[1mThis script is designed to simplify the creation of OpenVPN server and client key files. Source and support https://github.com/Mi-Al/OpenVPNassistent/\\033[0m
+Strings4::OpenVPN is already installed. The script can continue...
+Strings5::\\033[1;32mVPS you would like: \\033[1;31;5;7mhttps://m.do.co/c/52bf4857e82c\\e[0m\\033[0m
+Strings6::It seems OpenVPN is not yet installed. Do you want to install OpenVPN? [Y/n] :
+Strings7::The script can not continue without OpenVPN. Quitting...
 Strings8::Press any key to continue.
 Strings9::A Certificate Authority already exists.
-Strings10::Certificate Authority does not exist. Want to initialize it? [Y/n] :
-Strings11::A Certificate Authority is required to generate keys. Without it, it is impossible to continue. Shutting the script down.
-Strings12::We create keys of the Certificate Authority.
-Strings13::Введите название сервера (по умолчанию "server") :
+Strings10::A Certificate Authority does not exist. Do you want to initialize it? [Y/n] :
+Strings11::A Certificate Authority is required to generate keys. Without it, it is impossible to continue. Quitting.
+Strings12::Certificate Authority keys creation.
+Strings13::Enter the OpenVPN server name (default: "server") :
 Strings14::Configuration files will be created for the OpenVPN server as well as for clients.
 Strings15::Enter the number of clients :
 Strings16::Enter server IP address :
-Strings17::Enter server port for OpenVPN :
+Strings17::Enter OpenVPN server port for :
 Strings18::\\033[1mConfiguration files are created, they are located in the folder :\\033[0m
 Strings19::\\033[1;32mIf you need a VPS server to configure OpenVPN, I recommend this one: https://m.do.co/c/52bf4857e82c (if you follow the link to register, you will get bonus dollars!)\\033[0m
 Strings20::It seems that easy-rsa is not yet installed. Install easy-rsa? [Y/n] :
-Strings21::We cannot continue without easy-rsa. Shutdown.
+Strings21::We cannot continue without easy-rsa. Quitting.

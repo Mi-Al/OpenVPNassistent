@@ -4,7 +4,7 @@
 # Manual (en): https://miloserdov.org/?p=7303
 # Manual (ru): https://hackware.ru/?p=7079
 
-VERS="20211102"
+VERS="20211122"
 
 if [[ -d "configs" ]]; then
 	echo ""
@@ -28,7 +28,7 @@ echo -e ${Lang[Strings3]}
 read -n 1 -s -r -p "${Lang[Strings8]}"
 echo
 echo
-echo -e ${Lang[Strings5]}
+# echo -e ${Lang[Strings5]} # it seems too annoying
 read -n 1 -s -r -p "${Lang[Strings8]}"
 echo
 
