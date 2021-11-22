@@ -29,8 +29,8 @@ read -n 1 -s -r -p "${Lang[Strings8]}"
 echo
 echo
 # echo -e ${Lang[Strings5]} # it seems too annoying
-read -n 1 -s -r -p "${Lang[Strings8]}"
-echo
+#read -n 1 -s -r -p "${Lang[Strings8]}"
+#echo
 
 which pacman > /dev/null 2>&1
 if [[ $? -eq '0' ]]; then
